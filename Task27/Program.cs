@@ -18,7 +18,8 @@ int summary = 0;
 if (number / 10 != 0)
 {
     summary = Summary(number);
-} else summary = number;
+}
+else summary = number;
 
 
 Console.WriteLine(summary);
